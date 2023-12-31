@@ -1,0 +1,3 @@
+[submodule "autoloader"]
+	path = autoloader
+	url = git@github.com:masterjg/bash-functions-autoloader.git

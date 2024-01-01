@@ -27,7 +27,7 @@ Efficiently automate your daily tasks with our versatile collection of Bash func
 2. Add the autoloader script to your shell rc file (`.bashrc`, `.bash_profile`, etc.):
 
    ```bash
-   echo 'source ${HOME}/bash-functions/autoloader/__loader.sh' >> ${HOME}/.bashrc
+   echo 'source ${HOME}/bash-functions/init.sh' >> ${HOME}/.bashrc
    ```
 
 3. Reload your shell configuration:

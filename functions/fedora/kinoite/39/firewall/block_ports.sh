@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Example use:
+# firewall.block_ports tcp 1025 65535
+# firewall.block_ports udp 1025 65535
+
 local type="${1}"
 local from="${2}"
 local to="${3}"

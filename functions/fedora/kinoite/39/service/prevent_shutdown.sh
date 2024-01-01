@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Example use:
+# service.prevent_shutdown fwupd-update.service
+
 local name="${1}"
 local waiter_name="wait-for-${name}"
 

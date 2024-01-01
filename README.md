@@ -40,6 +40,25 @@ Efficiently automate your daily tasks with our versatile collection of Bash func
 
 After installation, the bash functions from this collection are automatically loaded and can be used in your shell.
 
+## Contributing
+
+We welcome contributions, especially for adding support for new operating systems. To contribute, follow these steps:
+
+1. Under the `functions` folder, create a tree structure for the OS you want to support. For example, for Fedora Kinoite version 39, create: `bash-functions/functions/fedora/kinoite/39`. The path should follow this format: `functions/$(ID=fedora)/$(VARIANT_ID=kinoite)/$(VERSION_ID=39)`.
+
+2. Inside the newly created folder, create a symlink to the autoloader script:
+   ```bash
+   ln -s ../../../../autoloader/__loader.sh __loader.sh
+   ```
+   Your directory structure should look like this:
+   ```
+   /functions/fedora/kinoite/39
+   ├── ...
+   └── __loader.sh -> ../../../../autoloader/__loader.sh
+   ```
+
+3. Start adding directories and `.sh` files that will be autoloaded. For more information, refer to the [bash-functions-autoloader README](https://github.com/masterjg/bash-functions-autoloader/blob/main/README.md).
+
 ## License
 
 This project is licensed under the GNU Affero General Public License (AGPL). For more details, see the [LICENSE](LICENSE) file.

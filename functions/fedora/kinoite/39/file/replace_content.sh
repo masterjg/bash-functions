@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env -S bash -eu -o pipefail
 
 # Example use:
 # file.replace_content /etc/rpm-ostreed.conf '#AutomaticUpdatePolicy=none' 'AutomaticUpdatePolicy=stage'

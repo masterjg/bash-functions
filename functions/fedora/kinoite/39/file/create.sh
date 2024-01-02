@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env -S bash -eu -o pipefail
 
 # Example use:
 # file.create /etc/systemd/system/fwupd-update.timer "

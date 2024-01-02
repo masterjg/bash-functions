@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env -S bash -eu -o pipefail
 
 # Example use:
 # file.append /etc/fstab "

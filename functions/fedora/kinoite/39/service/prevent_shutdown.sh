@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env -S bash -eu -o pipefail
 
 # Example use:
 # service.prevent_shutdown fwupd-update.service

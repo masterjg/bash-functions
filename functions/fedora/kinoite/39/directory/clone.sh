@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env -S bash -eu -o pipefail
 
 # Example use:
 # directory.clone /etc "${top_level_mount}/etc" -y
